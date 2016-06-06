@@ -32,13 +32,15 @@ Open on your browser
 open http://localhost:9090
 ```
 
-Choose your rom
+Select your rom
 
-```
-roms/smw2.sfc
-```
+![Preview](doc/load-game.png)
 
-Finally, press **Start**
+1. Press **X** on **Load Game**
+
+2. Later **X** on **/**
+
+3. Finally **X** on **Legend of Zelda, The - A Link to the Past (USA).sfc**
 
 
 
@@ -61,6 +63,10 @@ IE | Didn't try
 
 # References
 
-1. XNes
+1. RetroArch
+
+	[http://toadking.com/retroarch/snes9x-next.html](http://toadking.com/retroarch/snes9x-next.html)
+
+2. XNes
 
 	[https://github.com/tjwei/xnes](https://github.com/tjwei/xnes)
