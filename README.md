@@ -1,6 +1,6 @@
-# Emscripten js-msx Games
+# Emscripten js-snes Games
 
-Play old msx games on your browser
+Play old SNES games on your browser
 
 # Prerequires
 
@@ -11,13 +11,13 @@ Play old msx games on your browser
 Clone
 
 ```
-git clone https://github.com/humbertodias/emscripten-js-msx-games.git
+git clone https://github.com/humbertodias/emscripten-js-snes-games.git
 ```
 
 Into 
 
 ```
-cd emscripten-js-msx-games/
+cd emscripten-js-snes-games/
 ```
 
 Server
@@ -31,6 +31,17 @@ Open on your browser
 ```
 open http://localhost:9090
 ```
+
+Choose your rom
+
+```
+roms/smw2.sfc
+```
+
+Finally, press **Start**
+
+
+
 
 # Output
 
@@ -50,6 +61,6 @@ IE | Didn't try
 
 # References
 
-1. WebMSX
+1. XNes
 
-	[http://webmsx.org/](http://webmsx.org/)
+	[https://github.com/tjwei/xnes](https://github.com/tjwei/xnes)
