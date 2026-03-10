@@ -36,11 +36,9 @@ Open your browser and go to: http://localhost:9090
 Legend of Zelda, The - A Link to the Past (USA).sfc
 ```
 
-Preview:
-
 ![Load Game](doc/load-game.png)
 
-# Output
+### Output
 
 ![Game Preview](doc/preview.png)
 
