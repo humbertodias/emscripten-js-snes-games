@@ -1,72 +1,71 @@
-# Emscripten js-snes Games
+# Emscripten JS SNES Games
 
-Play old SNES games on your browser
+Play classic **SNES games directly in your browser** using an Emscripten port of a SNES emulator.
 
-# Prerequires
+🎮 [Live Demo](https://humbertodias.github.io/emscripten-js-snes-games/)
 
-1. Python
 
-# Run
 
-Clone
+# Running Locally
 
-```
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/humbertodias/emscripten-js-snes-games.git
 ```
 
-Into 
+### 2. Start a local web server
+
+```bash
+cd emscripten-js-snes-games
+python3 -m http.server 9090
+```
+### 3. Open the application
+
+Open your browser and go to: http://localhost:9090
+
+
+
+# Loading a Game
+
+1. Click **Load Game**
+2. Navigate to `/`
+3. Select a ROM file, for example:
 
 ```
-cd emscripten-js-snes-games/
+Legend of Zelda, The - A Link to the Past (USA).sfc
 ```
 
-Server
+Preview:
 
-```
-python -m SimpleHTTPServer 9090
-```
-
-Open on your browser
-
-```
-open http://localhost:9090
-```
-
-Select your rom
-
-![Preview](doc/load-game.png)
-
-1. Press **X** on **Load Game**
-
-2. Later **X** on **/**
-
-3. Finally **X** on **Legend of Zelda, The - A Link to the Past (USA).sfc**
-
-
-
+![Load Game](doc/load-game.png)
 
 # Output
 
-![Preview](doc/preview.png)
+![Game Preview](doc/preview.png)
+
 
 
 # Tested Browsers
 
-Browser | Performance |
-------------- | -------------
-Firefox | Fast
-Chrome | Fast
-Safari | Slow
-Opera | Normal
-IE | Didn't try
+| Browser           | Performance |
+| -- | -- |
+| Firefox           | Fast        |
+| Chrome            | Fast        |
+| Safari            | Slow        |
+| Opera             | Normal      |
+| Internet Explorer | Not tested  |
+
 
 
 # References
 
-1. RetroArch
+* [RetroArch](http://toadking.com/retroarch/snes9x-next.html)
+* [XNes](https://github.com/tjwei/xnes)
 
-	[http://toadking.com/retroarch/snes9x-next.html](http://toadking.com/retroarch/snes9x-next.html)
 
-2. XNes
 
-	[https://github.com/tjwei/xnes](https://github.com/tjwei/xnes)
+# Notes
+
+* You must provide your own SNES ROM files.
+* Performance depends on the browser and hardware.
